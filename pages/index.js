@@ -1,5 +1,7 @@
 import Head from 'next/head'
 
+console.log(`The value of NEXT_PUBLIC_ENV_VARIABLE is ${process.env['NEXT_PUBLIC_ENV_VARIABLE']}`)
+
 export default function Home() {
   return (
     <div className="container">
